@@ -8,7 +8,8 @@
     "route": "nodemon route.js",
     "static": "nodemon static.js",
     "middleware": "nodemon middleware.js",
-    "template": "nodemon template.js"
+    "template": "nodemon template.js",
+    "param": "nodemon param.js"
   },
   "repository": {
     "type": "git",
