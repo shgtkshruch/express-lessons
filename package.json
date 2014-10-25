@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "route": "nodemon route.js",
-    "static": "nodemon static.js"
+    "static": "nodemon static.js",
+    "middleware": "nodemon middleware.js"
   },
   "repository": {
     "type": "git",
