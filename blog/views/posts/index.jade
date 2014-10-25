@@ -1,0 +1,12 @@
+include ../header.jade
+h1 Posts
+ul
+  each post, i in posts
+    li
+      a(href="/posts/#{i}")
+        = post.title
+      a(href="/posts/#{i}/edit") [Edit]
+      form(method="post" action="/posts/#{i}?_method=delete")
+        input(type="submit" value="Delete")
+p
+  a(href="posts/new") Add new post

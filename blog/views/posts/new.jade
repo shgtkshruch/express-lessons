@@ -1,0 +1,8 @@
+include ../header.jade
+h1 Add new post
+form(method="post" action="/posts/create")
+  input(type="text" name="title")
+  input(type="text" name="body")
+  input(type="submit" value="Create")
+p
+  a(href="/") Go Back
